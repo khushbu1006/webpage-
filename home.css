@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1255835530/photo/modern-custom-suburban-home-exterior.jpg?s=612x612&w=0&k=20&c=0Dqjm3NunXjZtWVpsUvNKg2A4rK2gMvJ-827nb4AMU4=");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    gap: 15%;
+
+
+}
+
+nav ul li {
+    font-size: 2em;
+    font-style: oblique;
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:400px) and (min-width:324px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 3px;
+    }
+
+    #main {
+        background-size: cover;
+    }
+
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8dc6ff;
+}
+
+.box :hover {
+    transform: scale(1.1);
+
+}
